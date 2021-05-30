@@ -1,0 +1,6 @@
+<span *ngIf="textArea" >
+<textarea [name]="name" [value]="value" [title]="title" [rows]="rows" [cols]="cols" [disabled]="disable"></textarea>
+</span>
+<span *ngIf="!textArea">
+<input  [type]="type" [name]="name" [value]="value" [title]="title" [disabled]="disable"/>
+</span>

@@ -1,0 +1,10 @@
+{
+ 
+  "/uiEngine/*": {
+    "target": "http://localhost:8081/uiEngine/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": { "^/uiEngine": "" }
+  }
+}
