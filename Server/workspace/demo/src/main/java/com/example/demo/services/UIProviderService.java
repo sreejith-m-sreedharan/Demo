@@ -17,7 +17,7 @@ public class UIProviderService {
 			
 			elems.add(new ElementConfig("Username", Constants.TXT_SINGLE , null, null));
 			elems.add(new ElementConfig("password", Constants.TXT_PWD , null, null));
-			elems.add(new ElementConfig("firstname", Constants.TXT_SINGLE , null, null));
+			elems.add(new ElementConfig("firstname", Constants.TXT_SINGLE , "sreejith", null));
 			elems.add(new ElementConfig("Login", Constants.BUTTON_SUBMIT , "Login", null));
 			
 			pc.setElems(elems);

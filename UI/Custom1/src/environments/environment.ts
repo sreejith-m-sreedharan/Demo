@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  uiServiceBaseHref : '/uiEngine'
+  uiServiceBaseHref : 'http://localhost:8081/uiEngine'
 };
 
 /*
